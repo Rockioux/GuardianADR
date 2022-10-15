@@ -7,7 +7,7 @@ using UnityEngine;
 
 namespace Oxide.Plugins
 {
-    [Info("Guardian ADR", "Rockioux", "1.0.0")]
+    [Info("Guardian ADR", "Rockioux", "1.0.1")]
     [Description("Starts demo recordings on Guardian Violations.")]
     class GuardianADR : CovalencePlugin
     {
