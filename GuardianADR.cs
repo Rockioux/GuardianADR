@@ -77,7 +77,7 @@ namespace Oxide.Plugins
 
             if(!_config.NoClipConfig.HookEnabled && !_config.InsideTerrainConfig.HookEnabled)
             {
-                Unsubscribe(nameof(OnGuardianAntiCheatServer));
+                Unsubscribe(nameof(OnGuardianServer));
             }
         }
 
@@ -150,7 +150,7 @@ namespace Oxide.Plugins
             }
         }
 
-        private void OnGuardianAntiCheatServer(string playerID, Dictionary<string, string> details)
+        private void OnGuardianServer(string playerID, Dictionary<string, string> details)
         {
             try
             {
