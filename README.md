@@ -41,3 +41,5 @@ Each violation config has three configurable values:
   }
 }
 ```
+
+Credit to Pickle Brine for the awesome logo!
